@@ -1,6 +1,6 @@
 # ngrok-go
 
-[![Go Reference](https://pkg.go.dev/badge/golang.ngrok.com/ngrok.svg)](https://pkg.go.dev/golang.ngrok.com/ngrok)
+[![Go Reference][def]](https://pkg.go.dev/golang.ngrok.com/ngrok)
 [![Go](https://github.com/ngrok/ngrok-go/actions/workflows/buildandtest.yml/badge.svg)](https://github.com/ngrok/ngrok-go/actions/workflows/buildandtest.yml)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ngrok/ngrok-rust/blob/main/LICENSE-MIT)
 
@@ -17,10 +17,13 @@ For working with the [ngrok API](https://ngrok.com/docs/api/), check out the [ng
 
 ## Installation
 
-The best way to install the ngrok agent SDK is through `go get`.
+The best way to install the ngrok agent SDK is through `go get
+`.
 
 ```sh
-go get golang.ngrok.com/ngrok
+go 
+get
+ golang.ngrok.com/ngrok
 ```
 
 ## Documentation
@@ -103,3 +106,6 @@ Changes to `ngrok-go` are tracked under [CHANGELOG.md](https://github.com/ngrok/
 ngrok-go is licensed under the terms of the MIT license.
 
 See [LICENSE](./LICENSE.txt) for details.
+
+
+[def]: https://pkg.go.dev/badge/golang.ngrok.com/ngrok.svg
